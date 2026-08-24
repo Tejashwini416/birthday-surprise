@@ -61,6 +61,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+
 }
 
 
@@ -77,16 +79,13 @@ body {
 /* =========================================
    BLUE PANEL
    ========================================= */
-
 .slide::before {
-
     content: "";
 
     position: absolute;
 
-    width: min(78vw, 780px);
-
-    height: min(82vh, 650px);
+    width: min(90vw, 850px);
+    height: min(88vh, 700px);
 
     left: 50%;
     top: 50%;
@@ -99,7 +98,6 @@ body {
 
     z-index: 0;
 }
-
 
 /* =========================================
    CONTENT
@@ -128,12 +126,14 @@ body {
 
     font-weight: 700;
 
-    max-width: 90%;
+    width: 90%;
+
+    max-width: 700px;
+
+    text-align: center;
 
     overflow-wrap: break-word;
 }
-
-
 .slide p {
 
     color: #607684;
@@ -145,11 +145,14 @@ body {
 
     line-height: 1.4;
 
-    max-width: 90%;
+    width: 90%;
+
+    max-width: 650px;
+
+    text-align: center;
 
     overflow-wrap: break-word;
 }
-
 
 /* =========================================
    FIRST SLIDE GIF
